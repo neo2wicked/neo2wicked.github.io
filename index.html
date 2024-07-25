@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AD Portfolio</title>
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .status-dot, .status-text {
+            animation: blink 1s linear infinite;
+        }
+    </style>
 </head>
 <body>
     <div class="center-container">
@@ -28,12 +38,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="bio-section">
-                <p>"10x engineer - AI/ML" (Translation: I watched a YouTube video once)</p>
-                <p>Interests: Currently pretending to run and build projects</p>
-                <div class="blurbs">
-                    <h3>Amani's Blurbs</h3>
-                    <h4>About me:</h4>
+                <div class="bio-section">
+                    <h2>About me:</h2>
                     <p>I'm Amani and I'm here to pretend I know what I'm doing. Send me a message if you're confused by anything. Before asking me a question, please check Stack Overflow to see if your question has already been answered by someone smarter than me.</p>
                     <h4>Who I'd like to meet:</h4>
                     <p>I'd like to meet people who can explain machine learning to me in small words. I have a few close friends I've known all my life. I'd like to make more, but my personality keeps getting in the way.</p>
