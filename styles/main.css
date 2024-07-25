@@ -160,4 +160,42 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5998; /* Facebook blue again, because originality is dead */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #2d4373; /* Darker shade for hover, because we're fancy like that */
+}
+
+.projects-link {
+    margin-top: 20px;
+    /* Center this bad boy, because why the hell not? */
+    text-align: center;
+}
+
+.projects-link a {
+    display: inline-block;
+    font-size: 18px;
+    color: #3b5998; /* Facebook blue, because originality is dead */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #3b5998; /* Same color, because why the hell not? */
+    border-radius: 5px;
+    /* Transition for the wannabe UX designer in you */
+    transition: all 0.3s ease;
+}
+
+.projects-link a:hover {
+    background-color: #3b5998; /* More Facebook blue, yay! */
+    color: #fff; /* White, like the blank stare you give your monitor */
+}
+
 /* Add more styles here if you can figure out how CSS works */
