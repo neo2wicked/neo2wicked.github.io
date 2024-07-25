@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN Condensed Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans';
+    src: url('../fonts/Harmonia Sans W01 Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DIN', sans-serif; /* Because apparently Comic Sans wasn't pretentious enough for you */
+    background-color: #000; /* Still as dark as your future */
+    color: #fff; /* Still matching your basement-dwelling skin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.center-container {
+    text-align: left; /* Because right-alignment is for losers */
+    max-width: 800px;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1); /* Ooh, a white shadow. How edgy. */
+}
+
+h1 {
+    font-family: 'Harmonia Sans', sans-serif; /* Congrats, you've graduated from Comic Sans */
+    color: #fff; /* Because apparently you can't read dark text on a dark background */
+    margin-bottom: 20px; /* Push that name up top where it belongs */
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.avatar-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 20px 0px;
+    padding: 0;
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.avatar-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.status {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px 8px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.status-text {
+    color: #00ff00;
+}
+
+.profile-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.avatar-section {
+    flex: 0 0 220px; /* Fixed width for avatar and contacting box */
+    margin-right: 20px; /* Give that boat some breathing room */
+}
+
+.contacting-box {
+    background-color: #3b5998; /* Classic Facebook blue, because originality is dead */
+    border: 1px solid #d9dfea;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contacting-box h3 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contacting-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacting-box li {
+    margin-bottom: 5px;
+}
+
+.contacting-box a {
+    color: #d9dfea;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.contacting-box a:hover {
+    text-decoration: underline;
+}
+
+.bio-section {
+    flex: 1;
+    font-size: 14px; /* Because readability is overrated */
+}
+
+.bio-section p {
+    margin-bottom: 10px;
+}
+
+.blurbs {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.blurbs h3, .blurbs h4 {
+    color: #3b5998;
+    margin-bottom: 5px;
+}
+
+.blurbs p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* Add more styles here if you can figure out how CSS works */
