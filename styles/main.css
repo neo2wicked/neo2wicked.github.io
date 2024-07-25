@@ -76,6 +76,7 @@ a:hover {
     display: flex;
     align-items: center;
     font-size: 12px;
+    animation: blink 1s linear infinite;
 }
 
 .status-dot {
@@ -84,10 +85,12 @@ a:hover {
     background-color: #00ff00;
     border-radius: 50%;
     margin-right: 4px;
+    animation: blink 1s linear infinite;
 }
 
 .status-text {
     color: #00ff00;
+    animation: blink 1s linear infinite;
 }
 
 .profile-content {
@@ -136,30 +139,25 @@ a:hover {
 
 .bio-section {
     flex: 1;
-    font-size: 14px; /* Because readability is overrated */
+    font-family: 'DIN', sans-serif; /* Because apparently Comic Sans wasn't pretentious enough for you */
+    font-size: 14px; /* Because who needs readable text anyway? */
+    background-color: #f1f1f1; /* Let's make it look like a dirty napkin */
+    border: 1px solid #ccc; /* Border, because we're fancy like that */
+    border-radius: 5px; /* Rounded corners, ooh la la */
+    padding: 10px;
+    margin-top: 20px;
+    color: #333; /* Dark gray, for that "I'm depressed" vibe */
 }
 
 .bio-section p {
     margin-bottom: 10px;
+    font-size: 12px; /* Making it even smaller, because fuck your eyes */
 }
 
-.blurbs {
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-    color: #333;
-}
-
-.blurbs h3, .blurbs h4 {
-    color: #3b5998;
+.bio-section h2, .bio-section h4 {
+    font-family: 'Harmonia Sans', sans-serif; /* Congrats, you've graduated from Comic Sans */
+    color: #3b5998; /* Facebook blue, how original */
     margin-bottom: 5px;
-}
-
-.blurbs p {
-    font-size: 12px;
-    margin-bottom: 10px;
 }
 
 /* Add more styles here if you can figure out how CSS works */
